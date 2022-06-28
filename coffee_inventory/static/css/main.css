@@ -1,0 +1,96 @@
+/*Nav Styles */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Main Logo Image */
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color:rgb(156, 156, 156);
+    margin-right: 0.2vw;
+}
+
+/* End of Nav Styles */
+
+/*Start of Header Section*/
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+/*End of header section*/
+
+/*Start of Midsection*/
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+    border-top: 3px rgb(202, 202, 202) solid;
+    border-bottom: 3px rgb(202, 202, 202) solid;
+}
+
+#middle-text-h2{
+    padding: 1.5 vw;
+}
+
+/*End of midsection*/
+
+/*Start of Feat. Section*/
+#enjoy-coffee-image, #Coffee-friends-image, #barista-image{
+    margin-bottom: 10vh;
+    width: 80%;
+    max-width:100%;
+}
+
+#features-section{
+    margin: 8vw;
+}
+/*End of Feat section*/
+
+/*EthicalBeans*/
+#Picnic-image{
+    width: 75%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/*End of EthicalBeans*/
+
+/*Footer*/
+
+.footer-text-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#Coffee-cause-footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer {
+    border-top: 3px solid rgb(202, 202, 202);
+    margin-top: 20vh;
+    justify-content:center;
+    color:rgb(156, 156, 156);
+}
+
+
+/*TO DO: Fill out Profile CSS*/

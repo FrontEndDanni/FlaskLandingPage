@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <header class="row">
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>Changing the world, one cup of coffee at a time!</h2>
+            <h5>Learn how you can make a difference by exploring our site.</h5>
+            <div>
+                <button class="btn btn-success btn-lg">Our Mission</button>
+                <button class="btn btn-success btn-lg">Watch us on Youtube</button>
+            </div>
+        </div>
+        <!--Header -->
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/undraw_Getting_coffee_re_f2do.png" alt="Coffee Header" class="header-image">
+        </div>
+    </header>
+        <!--End of Header-->
+
+    <!--Middle-->
+    <section class="row">
+        <div class="col-12" id="middle-text">
+            <h2>What's brewing?</h2>
+            <p>Want to make the world a better place while enjoying your favorite morning brew? Now you can!</p>
+        </div>
+    </section>
+    <!--End of Middle-->
+
+    <!--Featured-->
+    <section class="row" id="features-section">
+        
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/undraw_Coffee_re_x35h(1).png" alt="enjoy-coffee-image" id="enjoy-coffee-image">
+            <h4>Be your own barista.</h4>
+            <p>Stop overspending at your local cafe and get your fix from us, guilt-free.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/undraw_barista_507s.png" alt="barista-image" id="barista-image">
+            <h4>Our premier roasts.</h4>
+            <p>Our seasonal blends pour the perfect cup every day of the year.</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/undraw_coffee_with_friends_3cbj.png" alt="Coffee-friends-image" id="Coffee-friends-image">
+            <h4>Our causes.</h4>
+            <p>All our proceeds go to charities like St. Jude's Hospital, No Kid Hungry, and Action Against Hunger.</p>
+        </div>
+    </section>
+    <!--End of Featured-->
+
+    <!--Ethical beans-->
+    <section class="row">
+        <div class="col-12 col-md-6"><img src="../../static/images/undraw_Conversation_re_c26v.png" alt="Coffee Conversation" id="Picnic-image">
+        
+        </div>
+
+        <div class="col-12 col-md-6">
+            <h4>100% ethically-sourced beans.</h4>
+            <p>Helping people thrive helps ensure the long-term sustainability of the premium products we provide. 
+            </p>
+        <div>
+            <button class="btn btn-success btn-lg">View our Roasts</button>
+            <button class="btn btn-success btn-lg">View our Partners</button>
+        </div>
+    </section>
+    <!--End of Ethical Beans-->
+
+    <!--Footer from here on down-->
+    <footer class="row" id="footer">
+        <div class="col-2 col-md-2">
+            <img src="../../static/images/organic-coffee-logo.png" alt="Coffee Logo Footer" id="Coffee-cause-footer">
+        </div>
+
+        <div class="col-2 col-md-2">
+            <div class="footer-text-flex">
+                <h4>Contact Us</h4>
+                <p>coffee4acause@gmail.com</p>
+                <p>Phone: (123)456-7890</p>
+                <p>Fax: (098)765-4321</p>
+                <p>4150 N. Jerry Way<br>
+                    Greenwood, TX 98053
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+{% endblock content %}
