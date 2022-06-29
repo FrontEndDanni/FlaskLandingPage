@@ -94,3 +94,23 @@ ul#horizontal-list li, ul#horizontal-list a{
 
 
 /*TO DO: Fill out Profile CSS*/
+/*Profile Styles*/
+.hero-section{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(172, 77, 30, 0.7), rgba(57, 153, 57, 0.6)), url(../images/coffeebanner.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}

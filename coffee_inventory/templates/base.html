@@ -8,13 +8,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="../static/css/main.css">
-<title>Coffee for a Cause</title>
+<title>The Java Hub</title>
 </head>
 <body>
     <!--Navbar Here-->
     <nav class="ct-nav">
         <div>
-            <img src="../static/images/organic-coffee-logo.png" alt="Coffee Cause Logo">
+            <img src="../static/images/organic-coffee-logo.png" alt="Coffee Logo">
         </div>
         <!--Nav Items Here-->
         <div>
@@ -22,16 +22,16 @@
                 <a href="#">
                     <li>The Coffee Cup Project</li>
                 </a>
-                <a href="#">
+                <a href="{{ url_for ('site.home') }}">
                     <li>Donate</li>
                 </a>
-                <a href="#">
+                <a href="{{ url_for('site.profile') }}">
                     <li>Profile</li>
                 </a>
-                <a href="#">
+                <a href="{{ url_for('auth.signin') }}">
                     <li>Sign In</li>
                 </a>
-                <a href="#">
+                <a href="{{ url_for('auth.signup') }}">
                     <li>Sign Up</li>
                 </a>
             </ul>
