@@ -78,6 +78,7 @@ ul#horizontal-list li, ul#horizontal-list a{
     display: flex;
     flex-direction: column;
     margin-top: 3vw;
+    font-size:smaller;
 }
 
 #Coffee-cause-footer {
@@ -112,5 +113,7 @@ ul#horizontal-list li, ul#horizontal-list a{
     padding-top: 20%;
     left: 20rem;
     top: 10rem;
+    font-style:oblique;
+    font-size:35px;
     color: white;
 }
